@@ -3,16 +3,31 @@ Vamos a seleccionar el elemento por su nombre y va a cambiar
 a todos los que se llamen igual */
 
 body{
-    /* poner imagen de fondo*/
-    /* background-color: rgb(245, 193, 219); */
-    background-image:url("Imagenes/fondo.jpg") ;
-    font-family: "Gill Sans", sans-serif;
-    
+    background-color: rgb(225, 218, 224); 
 }
 
-h1{
-    color:palevioletred;
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+  }
+
+#contacto{
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
 }
+  
+
+.texto-centrado{
+    text-align: center;
+
+}
+.text-pink{
+    color: rgb(60, 12, 55);
+}
+
+
 /* Selector de clase
 Nosotras vamos a elegir el nombre de la clase, y se la vamos a poner a las etiquetas por medio
 del atributo class ="nombre clase"
@@ -20,14 +35,7 @@ del atributo class ="nombre clase"
 Y le voy a cambiar las propiedades a ese elemento
 llamandolos por el operarador simbolo punto*/
 
-.sanrio{
-    border: 10px solid white;
-}
 
-.texto-centrado{
-    text-align: center;
-
-}
 
 /* Selector de ID 
 Selector de ID me ayudara a editar un elemento a la vez
@@ -40,32 +48,10 @@ Y vamos a llamar al elemento por el operador de numeral
 #nombre-id
 */
 
-#logo{
-    width: 150px;
-}
 
-.prueba{
-    border: 50px solid #000;
-    width: 200px;
-    height: auto;
-}
 
-.inline {
-    display: inline;
-}
 
-.inline-block {
-    display: inline-block;
-}
 
-#navegacion {
-    display: inline;
-}
 
-/* Selector combinado */
-
-ul li{
-    display: inline;
-}
 
 
